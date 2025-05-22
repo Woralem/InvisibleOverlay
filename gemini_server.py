@@ -4,11 +4,11 @@ from flask import Flask, request, jsonify
 import traceback
 
 # --- НАСТРОЙКИ ---
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyC06Mpo8SKihNugyw0AqFwHPARRKQRkRac") # Замените на свой ключ или используйте переменную окружения
+GEMINI_API_KEY = os.environ.get("AIzaSyD2z6napwv9r2RLy5uD3ESfM9jtf_zNFOw", "AIzaSyD2z6napwv9r2RLy5uD3ESfM9jtf_zNFOw") # Замените на свой ключ или используйте переменную окружения
 MODEL_NAME = "gemini-2.5-flash-preview-05-20" # <--- ИЗМЕНИТЕ ЭТУ СТРОКУ
 
 # Локальный SOCKS5 прокси, предоставляемый NekoBox
-NEKOBOX_SOCKS_PROXY_URL = "socks5h://127.0.0.1:2080" # 'h' для DNS через прокси
+NEKOBOX_SOCKS_PROXY_URL = "socks5://127.0.0.1:2080" # 'h' для DNS через прокси
 
 proxies_for_requests = {
     "http": NEKOBOX_SOCKS_PROXY_URL,
@@ -70,7 +70,8 @@ def send_to_gemini_rest(session_id, user_message_text):
             json=request_body,
             headers=headers,
             timeout=60, # Таймаут для запроса
-            proxies=proxies_for_requests # Используем настроенный прокси
+            proxies=proxies_for_requests, # Используем настроенный прокси
+            verify=False
         )
         response.raise_for_status() # Вызовет исключение для HTTP-ошибок (4xx, 5xx)
 
