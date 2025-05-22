@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/CMakeFiles/cpphttplib_content-populate"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/CMakeFiles/cpphttplib_content-populate.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/CMakeFiles/cpphttplib_content-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-subbuild/cpphttplib_content-populate-prefix/src/cpphttplib_content-populate-stamp/cpphttplib_content-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpphttplib_content-populate"
+		],
+		"name" : "cpphttplib_content-populate"
+	}
+}

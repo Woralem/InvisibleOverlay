@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/CMakeFiles/cpr_project-populate"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/CMakeFiles/cpr_project-populate.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/CMakeFiles/cpr_project-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpr_project-subbuild/cpr_project-populate-prefix/src/cpr_project-populate-stamp/cpr_project-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr_project-populate"
+		],
+		"name" : "cpr_project-populate"
+	}
+}
