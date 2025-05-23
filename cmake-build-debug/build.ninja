@@ -49,13 +49,45 @@ cmake_ninja_workdir = C$:/Users/user/Desktop/Overlay/cmake-build-debug/
 
 build cmake_object_order_depends_target_OverlayChatClient: phony || .
 
-build CMakeFiles/OverlayChatClient.dir/main.cpp.obj: CXX_COMPILER__OverlayChatClient_unscanned_Debug C$:/Users/user/Desktop/Overlay/main.cpp || cmake_object_order_depends_target_OverlayChatClient
+build CMakeFiles/OverlayChatClient.dir/src/main.cpp.obj: CXX_COMPILER__OverlayChatClient_unscanned_Debug C$:/Users/user/Desktop/Overlay/src/main.cpp || cmake_object_order_depends_target_OverlayChatClient
   DEFINES = -D_WIN32_WINNT=0x0A00
-  DEP_FILE = CMakeFiles\OverlayChatClient.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/nlohmann_json-src/include -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-src
+  DEP_FILE = CMakeFiles\OverlayChatClient.dir\src\main.cpp.obj.d
+  FLAGS = -Wall -Wextra -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/Overlay/src -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/nlohmann_json-src/include -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-src
   OBJECT_DIR = CMakeFiles\OverlayChatClient.dir
-  OBJECT_FILE_DIR = CMakeFiles\OverlayChatClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\OverlayChatClient.dir\src
+
+build CMakeFiles/OverlayChatClient.dir/src/window.cpp.obj: CXX_COMPILER__OverlayChatClient_unscanned_Debug C$:/Users/user/Desktop/Overlay/src/window.cpp || cmake_object_order_depends_target_OverlayChatClient
+  DEFINES = -D_WIN32_WINNT=0x0A00
+  DEP_FILE = CMakeFiles\OverlayChatClient.dir\src\window.cpp.obj.d
+  FLAGS = -Wall -Wextra -g -std=gnu++17 -fdiagnostics-color=always -Wno-unused-member-function
+  INCLUDES = -IC:/Users/user/Desktop/Overlay/src -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/nlohmann_json-src/include -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-src
+  OBJECT_DIR = CMakeFiles\OverlayChatClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\OverlayChatClient.dir\src
+
+build CMakeFiles/OverlayChatClient.dir/src/chat_renderer.cpp.obj: CXX_COMPILER__OverlayChatClient_unscanned_Debug C$:/Users/user/Desktop/Overlay/src/chat_renderer.cpp || cmake_object_order_depends_target_OverlayChatClient
+  DEFINES = -D_WIN32_WINNT=0x0A00
+  DEP_FILE = CMakeFiles\OverlayChatClient.dir\src\chat_renderer.cpp.obj.d
+  FLAGS = -Wall -Wextra -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/Overlay/src -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/nlohmann_json-src/include -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-src
+  OBJECT_DIR = CMakeFiles\OverlayChatClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\OverlayChatClient.dir\src
+
+build CMakeFiles/OverlayChatClient.dir/src/network_client.cpp.obj: CXX_COMPILER__OverlayChatClient_unscanned_Debug C$:/Users/user/Desktop/Overlay/src/network_client.cpp || cmake_object_order_depends_target_OverlayChatClient
+  DEFINES = -D_WIN32_WINNT=0x0A00
+  DEP_FILE = CMakeFiles\OverlayChatClient.dir\src\network_client.cpp.obj.d
+  FLAGS = -Wall -Wextra -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/Overlay/src -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/nlohmann_json-src/include -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-src
+  OBJECT_DIR = CMakeFiles\OverlayChatClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\OverlayChatClient.dir\src
+
+build CMakeFiles/OverlayChatClient.dir/src/utils.cpp.obj: CXX_COMPILER__OverlayChatClient_unscanned_Debug C$:/Users/user/Desktop/Overlay/src/utils.cpp || cmake_object_order_depends_target_OverlayChatClient
+  DEFINES = -D_WIN32_WINNT=0x0A00
+  DEP_FILE = CMakeFiles\OverlayChatClient.dir\src\utils.cpp.obj.d
+  FLAGS = -Wall -Wextra -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/Overlay/src -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/nlohmann_json-src/include -IC:/Users/user/Desktop/Overlay/cmake-build-debug/_deps/cpphttplib_content-src
+  OBJECT_DIR = CMakeFiles\OverlayChatClient.dir
+  OBJECT_FILE_DIR = CMakeFiles\OverlayChatClient.dir\src
 
 
 # =============================================================================
@@ -65,8 +97,8 @@ build CMakeFiles/OverlayChatClient.dir/main.cpp.obj: CXX_COMPILER__OverlayChatCl
 #############################################
 # Link the executable OverlayChatClient.exe
 
-build OverlayChatClient.exe: CXX_EXECUTABLE_LINKER__OverlayChatClient_Debug CMakeFiles/OverlayChatClient.dir/main.cpp.obj
-  FLAGS = -g
+build OverlayChatClient.exe: CXX_EXECUTABLE_LINKER__OverlayChatClient_Debug CMakeFiles/OverlayChatClient.dir/src/main.cpp.obj CMakeFiles/OverlayChatClient.dir/src/window.cpp.obj CMakeFiles/OverlayChatClient.dir/src/chat_renderer.cpp.obj CMakeFiles/OverlayChatClient.dir/src/network_client.cpp.obj CMakeFiles/OverlayChatClient.dir/src/utils.cpp.obj
+  FLAGS = -Wall -Wextra -g
   LINK_LIBRARIES = -luser32  -lgdi32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OverlayChatClient.dir
   POST_BUILD = cd .
